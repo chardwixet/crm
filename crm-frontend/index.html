@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skillbox-student</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a class="header__logo">
+
+
+        <picture>
+          <source media="(max-width: 767px)" srcset="img/hero__avatar-320w.png" />
+          <img src="img/hero__avatar.png" alt="Логотип" class="">
+        </picture>
+      </a>
+      <form class="header-form" action="">
+          <input type="text" class="header-form__search" placeholder="Введите запрос">
+      </form>
+    </div>
+  </header>
+  <main class="main">
+    <h1 style="display: none;">Скиллбокс</h1>
+    <section class="hero">
+      <div class="container">
+        <h2 class="hero__title">Клиенты</h2>
+        <div class="hero__content">
+          <div class="mask mask-table">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" fill="none">
+              <g clip-path="url(#clip0_121_2401)">
+                <path d="M14.0002 50.0005C14.0002 69.8825 30.1182 86.0005 50.0002 86.0005C69.8822 86.0005 86.0002 69.8825 86.0002 50.0005C86.0002 30.1185 69.8823 14.0005 50.0003 14.0005C45.3513 14.0005 40.9082 14.8815 36.8282 16.4865" stroke="#9873FF" stroke-width="8" stroke-miterlimit="10" stroke-linecap="round"/>
+              </g>
+              <defs>
+                <clipPath id="clip0_121_2401">
+                  <rect width="100" height="100" fill="white"/>
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <table class="hero-table">
+            <thead class="hero-table__thead">
+              <tr class="hero-table__title-row">
+                <th class="hero-table__title hero-table__dir"><span class="hero-table__title-text">ID</span></th>
+                <th class="hero-table__title hero-table__dir"><span class="hero-table__title-text">Фамилия Имя Отчество </span></th>
+                <th class="hero-table__title hero-table__dir"><span class="hero-table__title-text">Дата и время создания </span></th>
+                <th class="hero-table__title hero-table__dir"><span class="hero-table__title-text">Последние изменения </span></th>
+                <th class="hero-table__title">Контакты</th>
+                <th class="hero-table__title">Действия</th>
+                <th class="hero-table__title"></th>
+              </tr>
+            </thead>
+            <tbody class="table-hero__tbody">
+            </tbody>
+          </table>
+          <div class="hero-footer">
+            <button class="hero-footer__btn btn-reset">
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="16" viewBox="0 0 23 16" fill="none">
+                <path d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z" fill=""/>
+              </svg>
+              <span>Добавить студента</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
